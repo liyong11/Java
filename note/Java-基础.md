@@ -36,7 +36,7 @@ For-Each 循环:</br>
 ### **集合框架：**
 > Java中的集合框架大类可分为Collection和Map；</br>
 
-![avatar]('./pictrues/clipboard.png')
+![avatar](./pictrues/clipboard.png)
 
 两者的区别：
 1. Collection是单列集合；Map是双列集合(键值对形式)
