@@ -14,6 +14,6 @@
     解决方法:
     1. 访问[**RepoKeeper RESTful API** ](http://10.10.75.114:27771/swagger-ui.html#/RepoKeeper25805203162550921475) </br>
         第一步获取文件信息:调用POST /api/v2/tree/{gitId}/{branch} 接口获取文件信息,可以看到文件的status:locked.接口参数值为: gitId(专业id),branch('design'),path(文件所在目录).</br>
-        第二步恢复文件的状态.调用/api/v2/checkout/{gitId}/{branch}
+        第二步恢复文件的状态（迁出）.调用/api/v2/checkout/{gitId}/{branch}
         ![](./pictrues/0723.png)
 
