@@ -21,6 +21,9 @@
         > 第三范式是在第二范式基础上，更进一层，第三范式的目标就是确保表中各列与主键列直接相关，而不是间接相关。即各列与主键列都是一种直接依赖关系，则满足第三范式。
 
 ## 3.sql语句
+参考文章
+
+[sql语句大全](https://www.cnblogs.com/yubinfeng/archive/2010/11/02/1867386.html)
 *  **3.1基础篇**
     * 1.创建数据库:</br>
         `CREATE DATABASE database-name`
@@ -49,6 +52,7 @@
         最大：select max(field1) as maxvalue from table1
         最小：select min(field1) as minvalue from table1
         CONCAT( u.name ,',', u.sex ,',', o.teacher  )AS name_birthday  （将一些字符组合在一起）
+        分组:Group by
     ```
     * 5.使用外连接
     ```
